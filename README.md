@@ -91,9 +91,17 @@ The application exposes a demand prediction model through an intuitive web inter
 
 ```text
 .
-├── app.py                # Business-facing Gradio application
-├── model.pkl             # Trained demand forecasting model
-├── label_encoders.pkl    # Encoders ensuring training/inference parity
-├── requirements.txt      # Dependency specification
-└── README.md             # Project documentation
+demand-forecasting-app/
+│
+├── app/                    # Código productivo (deploy)
+│   ├── app.py              # Gradio app
+│   ├── model.pkl           # Modelo entrenado
+│   └── label_encoders.pkl  # Encoders
+│
+├── notebooks/              # Experimentación (Kaggle / análisis)
+│   ├── demand-forecasting.ipynb
+│
+├── requirements.txt        # Dependencias
+├── README.md               # Documentación de negocio
+
 
