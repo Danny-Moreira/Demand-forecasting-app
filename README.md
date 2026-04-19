@@ -1,5 +1,3 @@
-# Demand-forecasting-app
-
 # Demand Forecasting Application
 
 ## Executive Summary
@@ -13,8 +11,7 @@ The solution follows an **end‑to‑end analytics lifecycle**:
 - Deployment on **Hugging Face Spaces** for scalable access
 
 🔗 **Live Business Demo**  
-https://huggingface.co/spaces/<TU_USUARIO>/demand-forecasting
-
+https://dannymoreira-demand-forecasting.hf.space/
 ---
 
 ## Business Objective
